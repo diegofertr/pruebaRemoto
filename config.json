@@ -1,6 +1,8 @@
 {
     "rethinkdb": {
-        "host": "localhost",
+	// "host": "localhost"  --> para servidor local
+	// "host": "direccion del host" --> para servidor en la nube
+	"host": "192.168.28.237",
         "port": 6500
     }
 }
