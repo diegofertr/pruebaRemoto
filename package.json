@@ -4,7 +4,7 @@
   "description": "aplicacion que usa nodejs y rethinkdb",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "Diego Ticona, Galo Fernandez",
   "license": "GPL-3.0",
