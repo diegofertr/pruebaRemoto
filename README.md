@@ -13,3 +13,5 @@ git push
 
 
 Para jalar los cambios git pull
+
+Se debe tener Docker instalado
