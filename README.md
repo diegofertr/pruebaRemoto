@@ -16,7 +16,11 @@ Tener instalado NVM y node version 7.1.0.
  nvm use 7
 ```
 
-Si quiere correr la aplicacion de manera local debe tener instalado Docker, ademas de la imagen de rethink con:
+Si quiere correr la aplicacion de manera local debe tener instalado Docker, para instalar docker puede
+ir a [Docker Install](https://www.docker.com/products/overview).
+
+
+La imagen de rethink para docker la puede descargar e instalar con el siguiente comando:
 
 ``` 
  docker pull rethinkdb 
