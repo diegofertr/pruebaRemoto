@@ -33,7 +33,7 @@ r.connect(db)
 // Listing all messages when new user connects into socket.io
 io.on('connection', (client) => {
   r.connect(db)
-    .then(conn => r.table('messages').run(conn))
+    .then(conn => r.table('messages').orderBy(r.asc('date')).run(conn));
     .then(cursor => {
     cursor.each((err, message) => {
         io.sockets.emit('/messages', message);
