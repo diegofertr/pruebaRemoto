@@ -10,7 +10,6 @@ Este proyecto sirve también de prueba para trabajar en proyectos de manera remo
 # Requisitos
 
 Tener instalado NVM y node version 7.1.0.
-
 ``` 
  nvm install 7.1.0
  nvm use 7
@@ -21,28 +20,25 @@ ir a [Docker Install](https://www.docker.com/products/overview).
 
 
 La imagen de rethink para docker la puede descargar e instalar con el siguiente comando:
-
 ``` 
  docker pull rethinkdb 
 ```
 
-para correr un contenedor docker con las configuraciones necesarias para correr la aplicacion, aqui esta el siguiente codigo:
-
+para correr un contenedor docker con las configuraciones necesarias para correr la aplicacion, ejecúte el siguiente codigo:
 ```
  docker run -d -h 'hostname' -p 8080:8080 -p 6500:28015 -p 6501:29015 -v "/home/username/data:/data" -d rethinkdb
 ```
 
 # App
 
-Instalacion de la aplicacion paso a paso.
-
+Instalación de la aplicación paso a paso.
 ```
 Clonar el proyecto mediante SSH
 cd pruebaRemoto
 npm  install
 ```
 
-Para iniciar la aplicacion:
+Para iniciar la aplicación:
 ```
 nodemon index.js
 ```
@@ -55,7 +51,6 @@ O configurar en config.json, y cambiar la direccion por localhost, si quiere cor
 # Git
 
 Tener configurado la clave ssh
-
 ```
 git clone "repositorio"   -> Nos sirve para clonar un repositorio mediante SSH
 git add .   -> para añadir los cambios hechos en un fichero o directorio especifico. 
