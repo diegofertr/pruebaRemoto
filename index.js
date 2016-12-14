@@ -54,3 +54,5 @@ server.listen(3000, () => console.log('Timeline Server!'));
 // r.db('timeline').table('messages').insert({message: "YYYYYY", name: "XXXX"});
 // ver los datos de la tabla messages
 // r.db('timeline').table('messages')
+// añadi este comentario a manera de que no haya conflictos con el codigo, aun no soy un experto en git.
+
