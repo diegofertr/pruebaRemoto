@@ -1,4 +1,4 @@
-# Chat en tiempo Real - with Node and Rethinkdb
+# Chat en tiempo Real con Nodejs y Rethinkdb
 
 Aplicación de chat en tiempo real, con la funcionalidad de trabajar con Rethinkdb, una base de datos
 orientada a documentos, con su propio lenguaje de consultas llamada ReQl.
@@ -9,8 +9,10 @@ Este proyecto sirve también de prueba para trabajar en proyectos de manera remo
 
 # Requisitos
 
-Tener instalado NVM y node version 7.1.0..
-Tener instalado Docker, ademas de la imagen de rethink con:
+Tener instalado NVM y node version 7.1.0.
+
+
+Si quiere correr la aplicacion de manera local debe tener instalado Docker, ademas de la imagen de rethink con:
 
 ``` 
  docker pull rethinkdb 
