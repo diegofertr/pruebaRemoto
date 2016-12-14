@@ -33,6 +33,16 @@ cd pruebaRemoto
 npm  install
 ```
 
+Para iniciar la aplicacion:
+```
+nodemon index.js
+```
+
+Ir a la direccion: http://192.168.28.237:3000
+
+O configurar en config.json, y cambiar la direccion por localhost, si quiere correrlo de manera local.
+
+
 # Git
 
 Tener configurado la clave ssh
