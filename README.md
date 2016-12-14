@@ -11,6 +11,10 @@ Este proyecto sirve también de prueba para trabajar en proyectos de manera remo
 
 Tener instalado NVM y node version 7.1.0.
 
+``` 
+ nvm install 7.1.0
+ nvm use 7
+```
 
 Si quiere correr la aplicacion de manera local debe tener instalado Docker, ademas de la imagen de rethink con:
 
@@ -27,7 +31,6 @@ para correr un contenedor docker con las configuraciones necesarias para correr 
 # App
 
 Instalacion de la aplicacion paso a paso.
-Paso1.
 
 ```
 Clonar el proyecto mediante SSH
