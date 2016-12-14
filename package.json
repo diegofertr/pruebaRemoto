@@ -1,0 +1,16 @@
+{
+  "name": "noderethinkdb",
+  "version": "1.0.0",
+  "description": "aplicacion que usa nodejs y rethinkdb",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Diego Ticona, Galo Fernandez",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.14.0",
+    "rethinkdb": "^2.3.3",
+    "socket.io": "^1.6.0"
+  }
+}
