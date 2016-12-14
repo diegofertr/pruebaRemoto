@@ -3,10 +3,14 @@ prueba para trabajar en proyectos de manera remota, practicando comandos de GIT
 Tener instalado NVM y node version 7.1.0
 Tener instalado Docker, ademas de la imagen de rethink con:
 
-# docker pull rethinkdb
+``` 
+ Acá un comentario, breve 
+```
+
+ docker pull rethinkdb
 
 para correr un contenedor docker con las configuraciones necesarias para correr la aplicacion, aqui esta el siguiente codigo:
-# docker run -d -h 'hostname' -p 8080:8080 -p 6500:28015 -p 6501:29015 -v "/home/username/data:/data" -d rethinkdb
+ docker run -d -h 'hostname' -p 8080:8080 -p 6500:28015 -p 6501:29015 -v "/home/username/data:/data" -d rethinkdb
  
 Instalacion de la aplicacion paso a paso.
 Paso1.
@@ -15,11 +19,8 @@ cd pruebaRemoto
 npm  install
 
 
-
-
 Primarios.-
 Tener configurado la clave ssh
-
 
 
 git clone "repositorio"
