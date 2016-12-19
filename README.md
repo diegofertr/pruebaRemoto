@@ -1,7 +1,7 @@
 # Chat en tiempo Real con Nodejs y Rethinkdb
 
 Aplicación de chat en tiempo real, con la funcionalidad de trabajar con Rethinkdb, una base de datos
-orientada a documentos, con su propio lenguaje de consultas llamada ReQl.
+orientada a documentos, con su propio lenguaje de consultas llamada ReQL.
 
 
 Este proyecto sirve también de prueba para trabajar en proyectos de manera remota, practicando comandos de GIT.
